@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test1</title>
+    <link rel="stylesheet" href="main.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <script src="jquery-1.10.2.min.js"></script>
+</head>
+<body>
+<div class="root">
+    <div class="mainScreen">
+        <div class="mainScreen__video">
+            <video autoplay loop muted class="mainScreen__bgVideo" poster="videobg/ezgif.png">
+                <source src="videobg/videoBg.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="mainScreen__videoGradient">
+
+        </div>
+        <header class="header">
+            <div class="header__wrap">
+                <div class="header__logo"></div>
+                <div class="header__logo_light"></div>
+                <div class="header__buttons">
+                    <button class="header__menu-button">  <img src="img/Menu.svg" alt="Menu"></button>
+                    <button class="header__order-button">
+                        Замовити картку
+                    </button>
+                </div>
+            </div>
+        </header>
+
+
+        <section class="sectionTop">
+            <h2 class="sectionTop__item">Visa Signature</h2>
+            <h1 class="sectionTop__title">Картка для</h1>
+            <h1 class="sectionTop__title">яскравих подорожей</h1>
+            <div class="credit">
+                <div class="atvImg card-img">
+                    <div class="atvImg-layer"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="sectionBottom">
+        <div class="sectionBottom__title">Планування подорожі</div>
+        <p class="sectionBottom__item">Ретельна підготовка - запорука вдалої мандрівки.</p>
+        <div class="features">
+            <div class="features__column">
+                <div class="feature feature_highlighted feature_blue">
+                    <a href="#" class="feature__link">
+                        <img src="img/image.svg" alt="" class="feature__img">
+                        <h1 class="feature__subtitle">Visa Luxury Hotel collection</h1>
+                        <p class="feature_highlighted">Діє по всьому світу цілодобово й надає для вас глобальний сервіс
+                            інформаційної
+                            підтримки в
+                            телефонному режимі.</p>
+                        Подробнее </a>
+                </div>
+                <div class="feature feature_highlighted" >
+                    <img src="img/image-visa.svg" alt="" class="feature__img" style="border: 1px solid rgba(0, 0, 0, 0.176);
+box-sizing: border-box;
+border-radius: 8px;">
+                    <h1 class="feature__subtitle">Оренда сейфу</h1>
+                    <p class="feature_highlighted">Орендуйте сейф зі знижкою 30 % для надійного зберігання важливих документів та
+                        цінних
+                        речей, доки ви за кордоном.</p>
+
+                </div>
+                <div class="feature feature_yellow feature_blue">
+                    <a href="#" class="feature__link">
+                        <img src="img/icon-suitcase.png" alt="" class="feature__img" style="width: 122px;
+height: 122px;">
+                        <h1 class="feature__subtitle feature__subtitle-yellow">Повне страхування подорожі до 500000$</h1>
+                        <p class="feature_highlighted feature_highlighted-yellow">Cума страхового покриття для власників карток Visa Signature</p>
+                        Подробнее </a>
+                </div>
+            </div>
+            <div class="features__column features__column_center">
+                <div class="feature feature_blue">
+                    <a href="#" class="feature__link">
+                        <img src="img/icon2-car.png" alt="" class="feature__img" style="width: 100px;
+    height: 100px;">
+                        <h1 class="feature__subtitle">Оренда авто</h1>
+                        <p class="feature_highlighted">Бронюйте автомобілі по всьому світу, оплачуйте карткою Visa Signature та
+                            отримайте
+                            знижку</p>
+                        Подробнее </a>
+                </div>
+                <div class="feature ">
+                    <img src="img/Polygon.svg" alt="" class="feature__img" style="border: 1px solid rgba(0, 0, 0, 0.176);
+                    border-radius: 8px;">
+                    <h1 class="feature__subtitle">Персональний менеджер</h1>
+                    <p class="feature_highlighted">Ваш фінансовий помічник,який завжди допоможе: <br>-здійснити банківські операції за
+                        вашим
+                        дорученням <br>-підготувати всі необхідні документи до вашого візиту в Банк <br> -надасть якісні
+                        консультації й
+                        підбере для вас найкращі умови</p>
+                </div>
+            </div>
+
+            <div class="features__column features__column_right">
+                <div class="feature feature_blue">
+                    <a href="#" class="feature__link">
+                        <img src="img/image-visa.svg" alt="" class="feature__img" style="border: 1px solid rgba(0, 0, 0, 0.176);
+                    border-radius: 8px;">
+                        <h1 class="feature__subtitle">Консьєрж-сервіс</h1>
+                        <p class="feature_highlighted">Діє по всьому світу цілодобово й надає для вас глобальний сервіс
+                            інформаційної
+                            підтримки в телефонному режимі.</p>
+                        Подробнее </a>
+                </div>
+
+
+                <div class="feature">
+                    <img src="img/image-agoda.svg" alt="" class="feature__img" style="border: 1px solid rgba(0, 0, 0, 0.176);
+                    border-radius: 8px;">
+                    <h1 class="feature__subtitle">Оренда готелю на agoda.com</h1>
+                    <p class="feature_highlighted">Знижки у разі бронювання на agoda.com. Знижка 12 % в більш ніж 985 тис.
+                        готелів по
+                        всьому
+                        світу</p>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+</div>
+<script src="index.js"></script>
+<script>
+    let object1=$('.feature');
+    var layer =$('.sectionBottom');
+
+
+    layer.mousemove(function (e) {
+        var valueX = (e.pageX * -1 / 24);
+        var valueY = (e.pageY * -1 / 40);
+
+        object1.css({
+            'transform': 'translate3d(' + valueX + 'px,' + valueY + 'px,0) '
+        });
+    });
+</script>
+<script>
+    window.onscroll = function() {
+        var scrolled = window.pageYOffset || document.documentElement.scrollTop;
+        document.querySelector('.header__wrap').style.backgroundColor= scrolled===0 ?"":"#FFFFFF";
+        document.querySelector('.header__logo').style.background= scrolled===0 ?"var(--white-background)":" #000000";
+        document.querySelector('.header__logo_light').style.background= scrolled===0 ?"var(--white-background)":" #000000";
+        document.querySelector('.header__order-button').style.background= scrolled===0 ?" #fff":" #000000";
+        document.querySelector('.header__menu-button').style.background= scrolled===0 ?"":" #000000";
+
+    }
+</script>
+</body>
+</html>
+

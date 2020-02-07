@@ -1,0 +1,29 @@
+.sectionTop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+
+.sectionTop__item {
+    font-family: var(--font-pro);
+    font-size: 35px;
+    line-height: 100%;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 90px 0 4px 0;
+}
+
+.sectionTop__title {
+    font-family: var(--font-pro);
+    font-size: 64px;
+    line-height: 131%;
+    color: var(--white-background);
+    margin: 0;
+}
+

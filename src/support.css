@@ -1,0 +1,10 @@
+html {
+    --font_roboto: roboto, sans-serif;
+    --white-background:#FFFFFF;
+    --button-background: linear-gradient(180deg, #7A9FFF 0%, #57D5F0 100%);
+    --font-pro: SF Pro Display, sans-serif;
+    --image-background:linear-gradient(135deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 60%);
+    --video-background:linear-gradient(0deg, rgba(254,254,254,1) 30%,
+    rgba(255,255,255,0) 100%);
+    --section-bottom-background: url("../img/Mask Group.png");
+}

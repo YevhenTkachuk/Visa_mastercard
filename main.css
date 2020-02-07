@@ -1,0 +1,21 @@
+@import "src/header.css";
+@import "src/sectionTop.css";
+@import "src/sectionBottom.css";
+@import "src/contentCard.css";
+@import "src/creditCard.css";
+@import "src/mainScreen.css";
+@import "src/support.css";
+
+.root {
+    margin: 0 auto;
+    padding: 0;
+    height: 1350px;
+    z-index: 1;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+

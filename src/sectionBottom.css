@@ -1,0 +1,32 @@
+.sectionBottom {
+    width: 1070px;
+    mix-blend-mode: normal;
+    border-radius: 24px;
+    background-image: var(--section-bottom-background);
+    margin: 172px auto;
+    padding: 0 91px 84px 87px;
+}
+
+.sectionBottom__title {
+    font-family: var(--font_roboto);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 126.84%;
+    color: var(--white-background);
+    padding: 64px 407px 7px 35px;
+}
+
+.sectionBottom__item {
+    font-family: var(--font_roboto);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 126.84%;
+    color: var(--white-background);
+    padding: 0 495px 0 35px ;
+    margin-bottom: 40px;
+
+}
+
+
